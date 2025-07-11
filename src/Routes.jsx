@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ScrollToTop";
-import ErrorBoundary from "components/ErrorBoundary";
+import ScrollToTop from "./components/ScrollToTop";
+import ErrorBoundary from "./components/ErrorBoundary";
 // Add your imports here
-import CustomerDashboard from "pages/customer-dashboard";
-import BookingManagementScreen from "pages/booking-management-screen";
-import FleetManagementScreen from "pages/fleet-management-screen";
-import CarBrowseAndSearchScreen from "pages/car-browse-and-search-screen";
-import CarDetailAndBookingScreen from "pages/car-detail-and-booking-screen";
-import BookingAdministrationScreen from "pages/booking-administration-screen";
-import NotFound from "pages/NotFound";
+import CustomerDashboard from "./pages/customer-dashboard";
+import BookingManagementScreen from "./pages/booking-management-screen";
+import FleetManagementScreen from "./pages/fleet-management-screen";
+import CarBrowseAndSearchScreen from "./pages/car-browse-and-search-screen";
+import CarDetailAndBookingScreen from "./pages/car-detail-and-booking-screen";
+import BookingAdministrationScreen from "./pages/booking-administration-screen";
+import NotFound from "./pages/NotFound";
 
 const Routes = () => {
   return (
